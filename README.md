@@ -17,8 +17,10 @@ All you need to provide for the code to run is the name of the gene, address of 
 
 ## Functionalities in the code
 - `get_measurements`: gives the `Cq_c, SEM_c, Cq_e, SEM_e`
-- `get_sin_params`  : gives the parameters `[A,w,p,c]` found for fitting the sine wave `A * np.sin(w*t + p) + c', and their errors 
+- `get_sin_params`  : gives the parameters `[A,w,p,c]` found for fitting the sine wave `A * np.sin(w*t + p) + c`, and their respective errors `[Ae, we, pe, ce]`.
+- `fit_sinwave`     : gives the sinewave and the error on sinewave, on a smooth array.
+- `plot_curves`     : plots the data and their standard deviation, and the fitted sinewave and the error in fitting.
 
-## Demo code
+A demo code is provided in the notebook file named demo.ipynb
 
 
