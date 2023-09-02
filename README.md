@@ -23,4 +23,6 @@ All you need to provide for the code to run is the name of the gene, address of 
 
 A demo code is provided in the notebook file named demo_chrono.ipynb
 
+If you find this useful, please consider citing it in your work : `https://github.com/captain-shrugging-pants/chronobiology-python.git`
+
 
