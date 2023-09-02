@@ -21,6 +21,6 @@ All you need to provide for the code to run is the name of the gene, address of 
 - `fit_sinwave`     : gives the sinewave and the error on sinewave, on a smooth array.
 - `plot_curves`     : plots the data and their standard deviation, and the fitted sinewave and the error in fitting.
 
-A demo code is provided in the notebook file named demo.ipynb
+A demo code is provided in the notebook file named demo_chrono.ipynb
 
 
